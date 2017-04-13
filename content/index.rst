@@ -16,6 +16,7 @@ Please also note that this documentation may be incomplete and or may rapidly ch
 
 Dependencies
 ============
+
 - `Nim <https://github.com/nim-lang/Nim.git>`_
 - `Nimble <https://github.com/nim-lang/nimble>`_
 - `GENie <https://github.com/bkaradzic/GENie>`_
@@ -73,7 +74,8 @@ Note: Android and Chipmunk2D support are both optional and very experimental. If
   $ nake osx-release64
 
 Examples
-============
+========
+
 **FRAG** ships with a number of examples which serve a dual purpose:
 
 1. System tests for the framework.
@@ -104,5 +106,6 @@ Then run the appropriate nake task for the example you would like to run, ex:
   $ nake D00
 
 Samples
-============
+=======
+
 Samples are currently in development. As they are finished, instructions for installing and running them will appear here.
