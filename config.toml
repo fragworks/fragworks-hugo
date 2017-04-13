@@ -22,7 +22,7 @@ googleAnalytics = ""
 	favicon = "favicon.ico"
 
 [params.sidebar]
-	logo = "favicon.ico"
+	logo = "logo.png"
 
 
 	github_button  = true

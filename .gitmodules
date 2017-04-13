@@ -2,3 +2,7 @@
 	path = public
 	url = git@github.com:fragworks/fragworks.github.io
 	branch = master
+[submodule "--force"]
+	path = --force
+	url = git@github.com:fragworks/fragworks.github.io
+	branch = master
