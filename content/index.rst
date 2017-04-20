@@ -38,7 +38,7 @@ Installation Instructions
 
 .. code-block:: bash
   
-  $ git submodule update --init vendor/bx vendor/bgfx
+  $ git submodule update --init vendor/bx vendor/bgfx vendor/bimg
 
 Note: Android and Chipmunk2D support are both optional and very experimental. If desired, add `platforms/android` and | or `vendor/Chipmunk2D` to the list of submodules respectively.
 
