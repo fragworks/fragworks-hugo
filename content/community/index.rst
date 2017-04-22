@@ -8,4 +8,4 @@ markup: "rst"
 
 Forums
 ============
-The forums for FRAG can be found `here <http://community.fragworks.io>`_
+The forums for FRAG can be found `here <http://community.fragworks.io>`_.
