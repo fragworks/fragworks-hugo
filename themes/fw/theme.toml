@@ -1,0 +1,12 @@
+name = "fw"
+license = "MIT"
+licenselink = ""
+description = "Hugo theme for fragworks.io"
+homepage = ""
+tags = []
+features = []
+min_version = 0.20
+
+[author]
+  name = "Zachary Carter"
+  homepage = "https://github.com/zacharycarter"

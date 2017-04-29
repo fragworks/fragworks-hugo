@@ -2,36 +2,10 @@ baseurl = "http://fragworks.io/"
 languageCode = "en-us"
 metadataformat = "yaml"
 title = "FRAG"
-theme = "hugo-alabaster-theme"
+theme = "fw"
 
-disqusShortname = ""
-googleAnalytics = ""
-
-[params]
-	name = "FRAG"
-	description = "Framework for Rather Awesome Games."
-
-	github_user   = "fragworks"
-	github_repo   = "frag"
-	github_banner = true
-
-	custom_css = []
-	custom_js  = []
-
-	highlightjs = "css/highlight.css"
-	favicon = "favicon.ico"
-
-[params.sidebar]
-	logo = "logo.png"
-
-
-	github_button  = true
-	travis_button  = true
-	codecov_button = false
-	gratipay = ""
-
-	show_relations = true
-
-[params.footer]
-	copyright = "[Fragworks](https://github.com/fragworks)"
-	show_powered_by = true
+[params.header]
+    logo = "logo.svg"
+    logoAlt = "FRAG: Framework for Rather Awesome Games"
+    repoUrl = "https://github.com/fragworks/frag"
+    twitterHandle = ""

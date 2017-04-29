@@ -1,0 +1,6 @@
+dependencies:
+  bulma@^0.4.1: 0.4.1
+packages:
+  /bulma/0.4.1: 620b7986bc552311358aa9393c10905c55648864
+registry: 'https://registry.npmjs.org/'
+version: 2

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>{{ .Title }}</title>
+	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	{{ if .RSSLink -}}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">{{- end }}
+	{{ .Hugo.Generator }}
+</head>
+<body>
+	<section class="hero is-medium has-text-centered">
+		<div class="hero-head">
+			<div class="container">
+				<nav class="nav">
+					<div class="nav-left">
+						<a class="nav-item is-brand" href="{{ .Site.BaseURL }}">
+							{{ with .Site.Params.header -}}
+							<img src="{{ .Site.BaseURL }}images/{{ .logo }}" width="32" alt="{{ .logoAlt }}">
+							{{- end }}
+							{{ .Site.Title }}
+						</a>
+					</div>
+					<div class="nav-center">
+						<a class="nav-item" href="{{ .Site.Params.header.repoUrl }}">
+							<span class="icon">
+								<i class="fa fa-github"></i>
+							</span>
+						</a>
+						<a class="nav-item" href="https://twitter.com/{{ .Site.Params.header.twitterHandle }}">
+						<span class="icon">
+							<i class="fa fa-twitter"></i>
+						</span>
+						</a>
+					</div>
+					<div class="nav-right nav-menu">
+						<a class="nav-item is-active" href="{{ .Site.BaseURL }}">
+							Home
+						</a>
+						{{ range .Site.Menus.main }}
+						<a class="nav-item" href="{{ .URL | relURL }}">
+							{{ .Name }}
+						</a>
+						{{ end }}
+					</div>
+				</nav>
+			</div>
+		</div>

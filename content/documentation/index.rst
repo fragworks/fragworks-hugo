@@ -1,7 +1,6 @@
 ---
 date: 2017-04-13T00:01:53-04:00
-title: Framework for Rather Awesome Games
-type: homepage
+title: Documentation
 menu: main
 weight: 0
 markup: "rst"
